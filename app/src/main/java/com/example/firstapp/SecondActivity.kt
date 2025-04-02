@@ -25,10 +25,12 @@ class SecondActivity : AppCompatActivity() {
         val name = intent.getStringExtra("key").toString()
         Log.d("MYLOG", name)
         if (name.isBlank()) {
-            textView.text = "Нет данных"
+            textView.text = getString(R.string.no_data)
         } else {
-            textView = findViewById(R.id.secondTextView)
-            textView.text = name
+            //Задание 6. Применение форматированного ресурса
+            findViewById<TextView>(R.id.secondTextView).apply {
+                text = getString(R.string.hello_name_format, name)
+            }
         }
 
     }

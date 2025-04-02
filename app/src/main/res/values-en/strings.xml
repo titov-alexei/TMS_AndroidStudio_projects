@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First App</string>
+    <string name="enter_name">Enter name</string>
+    <string name="first_activity">First activity</string>
+    <string name="second_activity">Second activity</string>
+    <string name="button_main">Main button</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_data">No data</string>
+    <string name="hello_name_format">Hello %s</string>
+    <string name="button_main_second">Second button</string>
+    <string name="button_pressed">Button pressed!</string>
+    <string name="call_toast">Call toast</string>
+    <string name="text_for_et">Text for EditText</string>
+    <string name="first_image_view">First Image View</string>
+</resources>
