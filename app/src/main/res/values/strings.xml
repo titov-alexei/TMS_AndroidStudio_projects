@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">FirstApp</string>
+    <string name="app_name">Первое приложение</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="first_activity">Первое окно</string>
+    <string name="second_activity">Второе окно</string>
+    <string name="button_main">Главная кнопка</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="no_data">Нет данных</string>
+    <string name="hello_name_format">Привет %s</string>
+    <string name="button_main_second">Вторая кнопка</string>
+    <string name="button_pressed">Кнопка нажата!</string>
+    <string name="call_toast">Вызов Toast</string>
+    <string name="text_for_et">Текст из EditText</string>
+    <string name="first_image_view">Первое изображение</string>
 </resources>

@@ -3,5 +3,13 @@
     <style name="Base.Theme.FirstApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <!-- Задание №2. Создание темной темы. Добавил стиль для кнопки -->
+    <style name="CustomButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:radius">80dp</item>
     </style>
 </resources>
