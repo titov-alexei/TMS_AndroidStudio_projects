@@ -12,4 +12,15 @@
     <string name="call_toast">Вызов Toast</string>
     <string name="text_for_et">Текст из EditText</string>
     <string name="first_image_view">Первое изображение</string>
+    <string name="lesson18">Урок 18 (Стили, темы)</string>
+    <string name="lesson19">Урок 19 (Фрагменты)</string>
+    <string name="next_activity">Следующее активити</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_a">Фрагмент А</string>
+    <string name="fragment_b">Фрагмент Б</string>
+    <string name="next_fragment">Следующий фрагмент</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="back_fragment">Назад к фрагменту</string>
+    <string name="transfer_to_fragment">Передать данные во фрагмент</string>
+
 </resources>
