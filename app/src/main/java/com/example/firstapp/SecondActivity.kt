@@ -1,14 +1,9 @@
 package com.example.firstapp
 
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class SecondActivity : AppCompatActivity() {
     private lateinit var textView: TextView
@@ -22,14 +17,14 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun changeText() {
-        val name = intent.getStringExtra("key").toString()
-        Log.d("MYLOG", name)
-        if (name.isBlank()) {
+        val str = intent.getStringExtra(Lesson19.HELLO_STRING_KEY).toString()
+        Log.d("MYLOG", str)
+        if (str.isBlank()) {
             textView.text = getString(R.string.no_data)
         } else {
             //Задание 6. Применение форматированного ресурса
             findViewById<TextView>(R.id.secondTextView).apply {
-                text = getString(R.string.hello_name_format, name)
+                text = str
             }
         }
 

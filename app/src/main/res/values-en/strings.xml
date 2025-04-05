@@ -13,4 +13,12 @@
     <string name="call_toast">Call toast</string>
     <string name="text_for_et">Text for EditText</string>
     <string name="first_image_view">First Image View</string>
+    <string name="lesson18">Lesson 18 (Style, themes)</string>
+    <string name="lesson19">Lesson 19 (Fragments)</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="fragment_a">Fragment A</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="back_fragment">Back to fragment</string>
+    <string name="transfer_to_fragment">Transfer data to fragment</string>
 </resources>
