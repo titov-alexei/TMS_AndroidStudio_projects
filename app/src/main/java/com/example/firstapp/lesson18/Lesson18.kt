@@ -1,4 +1,4 @@
-package com.example.firstapp
+package com.example.firstapp.lesson18
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.firstapp.lesson19.Lesson19
+import com.example.firstapp.R
 
 class Lesson18 : AppCompatActivity() {
 
@@ -26,7 +25,7 @@ class Lesson18 : AppCompatActivity() {
         init()
 
         textView.setOnClickListener {
-            val intent = Intent(this,SecondActivity::class.java)
+            val intent = Intent(this, SecondActivity::class.java)
             val name = editText.text.toString()
             Log.d("MYLOG", name)
             intent.putExtra(Lesson19.HELLO_STRING_KEY, name)

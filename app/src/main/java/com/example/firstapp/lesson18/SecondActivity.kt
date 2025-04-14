@@ -1,9 +1,11 @@
-package com.example.firstapp
+package com.example.firstapp.lesson18
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.firstapp.lesson19.Lesson19
+import com.example.firstapp.R
 
 class SecondActivity : AppCompatActivity() {
     private lateinit var textView: TextView

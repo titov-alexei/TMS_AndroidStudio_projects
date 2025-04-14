@@ -27,6 +27,20 @@
             android:layout_marginHorizontal="20dp"
             android:text="@string/lesson19"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson20"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/lesson20"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson21"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/lesson21"/>
+
 
     </LinearLayout>
 
