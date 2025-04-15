@@ -15,10 +15,17 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
-            android:name=".Lesson19"
+            android:name=".lesson21.Lesson21"
             android:exported="false" />
         <activity
-            android:name=".Lesson18"
+            android:name=".lesson20.Lesson20"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name=".lesson19.Lesson19"
+            android:exported="false" />
+        <activity
+            android:name=".lesson18.Lesson18"
             android:exported="false" />
 
         <receiver
@@ -27,7 +34,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".SecondActivity"
+            android:name=".lesson18.SecondActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

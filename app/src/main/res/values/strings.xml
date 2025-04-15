@@ -22,5 +22,16 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="back_fragment">Назад к фрагменту</string>
     <string name="transfer_to_fragment">Передать данные во фрагмент</string>
+    <string name="lesson20">Урок 20 (View Binding)</string>
+    <string name="lesson21">Урок 21 (RecyclerView)</string>
+    <string name="change_text">Поменять текст</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dymamic_fragment" translatable="false">Dynamic fragment</string>
+    <string name="home_fragment" translatable="false">Home Fragment</string>
+    <string name="details_fragment" translatable="false">Details Fragment</string>
+    <string name="settings_fragment" translatable="false">Settings Fragment</string>
+    <string name="add_fragment">Добавить фрагмент</string>
+    <string name="remove_fragment">Удалить фрагмент</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
