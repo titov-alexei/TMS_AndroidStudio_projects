@@ -32,6 +32,8 @@
     <string name="settings_fragment" translatable="false">Settings Fragment</string>
     <string name="add_fragment">Добавить фрагмент</string>
     <string name="remove_fragment">Удалить фрагмент</string>
+    <string name="add">Добавить</string>
+    <string name="clear_List">Очистить список</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
