@@ -8,7 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.firstapp.lesson18.Lesson18
 import com.example.firstapp.lesson19.Lesson19
 import com.example.firstapp.lesson20.Lesson20
-import com.example.firstapp.lesson21.Lesson21
+import com.example.firstapp.lesson22.Lesson22
+import com.example.firstapp.lesson23.presentation.Lesson23
+
+//import com.example.firstapp.lesson21.Lesson21
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     private var btnLesson19: Button? = null
     private var btnLesson20: Button? = null
     private var btnLesson21: Button? = null
+    private var btnLesson22: Button? = null
+    private var btnLesson23: Button? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,8 +46,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnLesson21?.setOnClickListener {
+        /*btnLesson21?.setOnClickListener {
             val intent = Intent(this, Lesson21::class.java)
+            startActivity(intent)
+        }*/
+
+        btnLesson22?.setOnClickListener {
+            val intent = Intent(this, Lesson22::class.java)
+            startActivity(intent)
+        }
+
+        btnLesson23?.setOnClickListener {
+            val intent = Intent(this, Lesson23::class.java)
             startActivity(intent)
         }
     }
@@ -53,6 +68,8 @@ class MainActivity : AppCompatActivity() {
         btnLesson19 = findViewById(R.id.btnLesson19)
         btnLesson20 = findViewById(R.id.btnLesson20)
         btnLesson21 = findViewById(R.id.btnLesson21)
+        btnLesson22 = findViewById(R.id.btnLesson22)
+        btnLesson23 = findViewById(R.id.btnLesson23)
         //val filter = IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION)
         //registerReceiver(wifiReceiver, filter)
     }

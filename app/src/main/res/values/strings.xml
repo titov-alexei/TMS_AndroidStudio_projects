@@ -24,6 +24,7 @@
     <string name="transfer_to_fragment">Передать данные во фрагмент</string>
     <string name="lesson20">Урок 20 (View Binding)</string>
     <string name="lesson21">Урок 21 (RecyclerView)</string>
+    <string name="lesson22">Урок 22 (DiffUtil)</string>
     <string name="change_text">Поменять текст</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="dymamic_fragment" translatable="false">Dynamic fragment</string>

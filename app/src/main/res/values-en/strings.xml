@@ -23,6 +23,7 @@
     <string name="transfer_to_fragment">Transfer data to fragment</string>
     <string name="lesson20">Lesson 20 (View Binding)</string>
     <string name="lesson21">Lesson 21 (RecuclerView)</string>
+    <string name="lesson22">Lesson 22 (DiffUtil)</string>
     <string name="change_text">Change text</string>
     <string name="add_fragment">Add fragment</string>
     <string name="remove_fragment">Remove fragment</string>

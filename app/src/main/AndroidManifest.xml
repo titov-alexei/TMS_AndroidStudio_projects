@@ -15,12 +15,21 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
+            android:name=".lesson23.presentation.Lesson23"
+            android:exported="false" />
+        <activity
+            android:name=".lesson22.Homework22"
+            android:exported="false" />
+        <activity
+            android:name=".lesson22.Lesson22"
+            android:exported="false" />
+        <activity
             android:name=".lesson21.Lesson21"
             android:exported="false" />
         <activity
             android:name=".lesson20.Lesson20"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize|stateHidden"/>
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name=".lesson19.Lesson19"
             android:exported="false" />

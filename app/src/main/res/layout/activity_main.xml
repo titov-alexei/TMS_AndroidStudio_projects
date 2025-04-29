@@ -41,6 +41,19 @@
             android:layout_marginHorizontal="20dp"
             android:text="@string/lesson21"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson22"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/lesson22"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson23"
+            android:layout_marginHorizontal="20dp"
+            android:text="Урок 23"/>
 
     </LinearLayout>
 
