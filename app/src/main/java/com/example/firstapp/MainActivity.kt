@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.firstapp.lesson18.Lesson18
 import com.example.firstapp.lesson19.Lesson19
 import com.example.firstapp.lesson20.Lesson20
+import com.example.firstapp.lesson21.Lesson21
 import com.example.firstapp.lesson22.Lesson22
+import com.example.firstapp.lesson23.homework23.presentation.Homework23
 import com.example.firstapp.lesson23.presentation.Lesson23
 
 //import com.example.firstapp.lesson21.Lesson21
@@ -46,10 +48,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        /*btnLesson21?.setOnClickListener {
+        btnLesson21?.setOnClickListener {
             val intent = Intent(this, Lesson21::class.java)
             startActivity(intent)
-        }*/
+        }
 
         btnLesson22?.setOnClickListener {
             val intent = Intent(this, Lesson22::class.java)
@@ -57,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnLesson23?.setOnClickListener {
-            val intent = Intent(this, Lesson23::class.java)
+            val intent = Intent(this, Homework23::class.java)
             startActivity(intent)
         }
     }

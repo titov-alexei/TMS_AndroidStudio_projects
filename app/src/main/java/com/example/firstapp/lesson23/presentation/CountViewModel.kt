@@ -15,7 +15,7 @@ class CountViewModel(): ViewModel() {
     private val interactor = FilterInteractor(filterRepository = FilterRepositoryImpl())
 
     fun touchButton(text: String) {
-        //_count.value = _count.value?.plus(1)
+        //_count.value = _count.value?.dplus(1)
         /*val filterData = filterModel.getPersons().filter {
             it.name.contains(text)
         }
@@ -26,18 +26,4 @@ class CountViewModel(): ViewModel() {
         }
 
     }
-}
-
-class FilterModel() {
-    /*private val persons = listOf(
-        Person("Alex", 0),
-        Person("Boba", 1),
-        Person("Ivan", 2),
-        Person("Alix", 3)
-    )
-
-    fun getPersons(): List<Person> {
-        return persons
-    }*/
-
 }
