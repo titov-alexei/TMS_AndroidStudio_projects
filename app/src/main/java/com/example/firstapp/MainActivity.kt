@@ -11,7 +11,7 @@ import com.example.firstapp.lesson20.Lesson20
 import com.example.firstapp.lesson21.Lesson21
 import com.example.firstapp.lesson22.Lesson22
 import com.example.firstapp.lesson23.homework23.presentation.Homework23
-import com.example.firstapp.lesson23.presentation.Lesson23
+import com.example.firstapp.lesson24.presentation.Lesson24
 
 //import com.example.firstapp.lesson21.Lesson21
 
@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private var btnLesson21: Button? = null
     private var btnLesson22: Button? = null
     private var btnLesson23: Button? = null
+    private var btnLesson24: Button? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,6 +63,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Homework23::class.java)
             startActivity(intent)
         }
+
+        btnLesson24?.setOnClickListener {
+            val intent = Intent(this, Lesson24::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initView() {
@@ -72,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         btnLesson21 = findViewById(R.id.btnLesson21)
         btnLesson22 = findViewById(R.id.btnLesson22)
         btnLesson23 = findViewById(R.id.btnLesson23)
+        btnLesson24 = findViewById(R.id.btnLesson24)
         //val filter = IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION)
         //registerReceiver(wifiReceiver, filter)
     }
@@ -79,36 +86,5 @@ class MainActivity : AppCompatActivity() {
     private fun useContext() {
         val context = this.applicationInfo.toString()
         Log.d("MYLOG", context)
-    }
-
-    override fun onStart() {
-        super.onStart()
-        Log.d("MYLOG", "MainActivity onStart()")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("MYLOG", "MainActivity onResume()")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("MYLOG", "MainActivity onPause()")
-        //unregisterReceiver(wifiReceiver)
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("MYLOG", "MainActivity onStop()")
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.d("MYLOG", "MainActivity onRestart()")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d("MYLOG", "MainActivity onDestroy()")
     }
 }

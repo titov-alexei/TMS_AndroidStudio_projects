@@ -30,4 +30,6 @@
     <string name="add">Add</string>
     <string name="clear_List">Clear list</string>
     <string name="delete">Delete</string>
+    <string name="number">Count</string>
+    <string name="product_name">Product name</string>
 </resources>
