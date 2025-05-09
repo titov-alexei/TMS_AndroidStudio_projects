@@ -36,6 +36,8 @@
     <string name="add">Добавить</string>
     <string name="clear_List">Очистить список</string>
     <string name="delete">Удалить</string>
+    <string name="number">Кол-во</string>
+    <string name="product_name">Наименование продукта</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
