@@ -39,5 +39,10 @@
     <string name="number">Кол-во</string>
     <string name="product_name">Наименование продукта</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="download_data">Загрузить данные</string>
+    <string name="download_success">Данные загружены</string>
+    <string name="download_errror">Ошибка загрузки</string>
+    <string name="data_loading">Данные загружаются...</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

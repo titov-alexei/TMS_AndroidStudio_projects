@@ -32,4 +32,8 @@
     <string name="delete">Delete</string>
     <string name="number">Count</string>
     <string name="product_name">Product name</string>
+    <string name="download_data">Download data</string>
+    <string name="download_success">Download sucess</string>
+    <string name="download_errror">Download error</string>
+    <string name="data_loading">Loading data...</string>
 </resources>
