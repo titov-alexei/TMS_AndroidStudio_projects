@@ -15,6 +15,9 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
+            android:name=".lesson25.presentation.Lesson25"
+            android:exported="false" />
+        <activity
             android:name=".lesson24.presentation.Lesson24"
             android:exported="false" />
         <activity
