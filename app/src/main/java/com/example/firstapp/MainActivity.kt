@@ -13,6 +13,7 @@ import com.example.firstapp.lesson22.Lesson22
 import com.example.firstapp.lesson23.homework23.presentation.Homework23
 import com.example.firstapp.lesson24.presentation.Lesson24
 import com.example.firstapp.lesson25.presentation.Lesson25
+import com.example.firstapp.lesson26.presentation.Lesson26
 
 //import com.example.firstapp.lesson21.Lesson21
 
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private var btnLesson23: Button? = null
     private var btnLesson24: Button? = null
     private var btnLesson25: Button? = null
+    private var btnLesson26: Button? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,6 +77,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lesson25::class.java)
             startActivity(intent)
         }
+
+        btnLesson26?.setOnClickListener {
+            val intent = Intent(this, Lesson26::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initView() {
@@ -87,6 +94,7 @@ class MainActivity : AppCompatActivity() {
         btnLesson23 = findViewById(R.id.btnLesson23)
         btnLesson24 = findViewById(R.id.btnLesson24)
         btnLesson25 = findViewById(R.id.btnLesson25)
+        btnLesson26 = findViewById(R.id.btnLesson26)
         //val filter = IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION)
         //registerReceiver(wifiReceiver, filter)
     }

@@ -69,6 +69,13 @@
             android:layout_marginHorizontal="20dp"
             android:text="Урок 25 (Coroutines Part1)"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson26"
+            android:layout_marginHorizontal="20dp"
+            android:text="Урок 26 (Coroutines Part2)"/>
+
     </LinearLayout>
 
 
