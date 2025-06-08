@@ -44,5 +44,8 @@
     <string name="download_errror">Ошибка загрузки</string>
     <string name="data_loading">Данные загружаются...</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="in_cart">В корзине: 0</string>
+    <string name="load_data">Загрузить данные</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

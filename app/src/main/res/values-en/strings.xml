@@ -36,4 +36,6 @@
     <string name="download_success">Download sucess</string>
     <string name="download_errror">Download error</string>
     <string name="data_loading">Loading data...</string>
+    <string name="in_cart">In cart: 0</string>
+    <string name="load_data">Load data</string>
 </resources>
