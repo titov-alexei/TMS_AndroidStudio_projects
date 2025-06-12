@@ -90,6 +90,13 @@
             android:layout_marginHorizontal="20dp"
             android:text="Урок 29 (Network Part2)"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson33"
+            android:layout_marginHorizontal="20dp"
+            android:text="Урок 33 (Custom View)"/>
+
     </LinearLayout>
 
 
