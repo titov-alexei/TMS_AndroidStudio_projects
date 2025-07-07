@@ -17,8 +17,10 @@
         android:theme="@style/Theme.FirstApp"
         tools:targetApi="31">
         <activity
-            android:name=".lesson30.Lesson30"
-            android:exported="false" />
+            android:name=".lesson40.Lesson40"
+            android:exported="false"
+            android:label="@string/title_activity_lesson40"
+            android:theme="@style/Theme.FirstApp" />
         <activity
             android:name=".lesson34.Lesson34"
             android:exported="false" />

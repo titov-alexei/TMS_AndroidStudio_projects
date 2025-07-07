@@ -18,6 +18,7 @@ import com.example.firstapp.lesson28.presentation.Lesson28
 import com.example.firstapp.lesson29.presentation.Lesson29
 import com.example.firstapp.lesson33.Lesson33
 import com.example.firstapp.lesson34.Lesson34
+import com.example.firstapp.lesson40.Lesson40
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,6 +36,7 @@ class MainActivity : AppCompatActivity() {
     private var btnLesson29: Button? = null
     private var btnLesson33: Button? = null
     private var btnLesson34: Button? = null
+    private var btnLesson40: Button? = null
 
 
 
@@ -109,6 +111,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lesson34::class.java)
             startActivity(intent)
         }
+
+        btnLesson40?.setOnClickListener {
+            val intent = Intent(this, Lesson40::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initView() {
@@ -126,6 +133,7 @@ class MainActivity : AppCompatActivity() {
         btnLesson29 = findViewById(R.id.btnLesson29)
         btnLesson33 = findViewById(R.id.btnLesson33)
         btnLesson34 = findViewById(R.id.btnLesson34)
+        btnLesson40 = findViewById(R.id.btnLesson40)
         //val filter = IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION)
         //registerReceiver(wifiReceiver, filter)
     }
