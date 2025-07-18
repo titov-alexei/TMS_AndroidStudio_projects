@@ -111,6 +111,13 @@
             android:layout_marginHorizontal="20dp"
             android:text="Урок 40 (JetPack Compose 1)"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson41"
+            android:layout_marginHorizontal="20dp"
+            android:text="Урок 41 (JetPack Compose 2)"/>
+
     </LinearLayout>
 
 
