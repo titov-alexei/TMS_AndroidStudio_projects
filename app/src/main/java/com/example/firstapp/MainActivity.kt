@@ -20,13 +20,14 @@ import com.example.firstapp.lesson33.Lesson33
 import com.example.firstapp.lesson34.Lesson34
 import com.example.firstapp.lesson40.Lesson40
 import com.example.firstapp.lesson41.Lesson41
+import com.example.firstapp.lesson42.Lesson42
 
 class MainActivity : AppCompatActivity() {
 
     //private lateinit var wifiReceiver: WifiReceiver
-    private var btnLesson18: Button? = null
+    /*private var btnLesson18: Button? = null
     private var btnLesson19: Button? = null
-    private var btnLesson20: Button? = null
+    private var btnLesson20: Button? = null*/
     private var btnLesson21: Button? = null
     private var btnLesson22: Button? = null
     private var btnLesson23: Button? = null
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     private var btnLesson34: Button? = null
     private var btnLesson40: Button? = null
     private var btnLesson41: Button? = null
+    private var btnLesson42: Button? = null
 
 
 
@@ -49,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         initView()  //Инициализация компонентов на MainActivity
         useContext() //Для урока 17, использование context
 
-        btnLesson18?.setOnClickListener {
+        /*btnLesson18?.setOnClickListener {
             val intent = Intent(this, Lesson18::class.java)
             startActivity(intent)
         }
@@ -62,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         btnLesson20?.setOnClickListener {
             val intent = Intent(this, Lesson20::class.java)
             startActivity(intent)
-        }
+        }*/
 
         btnLesson21?.setOnClickListener {
             val intent = Intent(this, Lesson21::class.java)
@@ -123,13 +125,18 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lesson41::class.java)
             startActivity(intent)
         }
+
+        btnLesson42?.setOnClickListener {
+            val intent = Intent(this, Lesson42::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initView() {
        // wifiReceiver = WifiReceiver()
-        btnLesson18 = findViewById(R.id.btnLesson18)
+        /*btnLesson18 = findViewById(R.id.btnLesson18)
         btnLesson19 = findViewById(R.id.btnLesson19)
-        btnLesson20 = findViewById(R.id.btnLesson20)
+        btnLesson20 = findViewById(R.id.btnLesson20)*/
         btnLesson21 = findViewById(R.id.btnLesson21)
         btnLesson22 = findViewById(R.id.btnLesson22)
         btnLesson23 = findViewById(R.id.btnLesson23)
@@ -142,6 +149,7 @@ class MainActivity : AppCompatActivity() {
         btnLesson34 = findViewById(R.id.btnLesson34)
         btnLesson40 = findViewById(R.id.btnLesson40)
         btnLesson41 = findViewById(R.id.btnLesson41)
+        btnLesson42 = findViewById(R.id.btnLesson42)
         //val filter = IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION)
         //registerReceiver(wifiReceiver, filter)
     }

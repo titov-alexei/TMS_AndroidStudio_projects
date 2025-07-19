@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:layout_marginTop="30dp">
 
-        <Button
+        <!--<Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnLesson18"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnLesson20"
             android:layout_marginHorizontal="20dp"
-            android:text="@string/lesson20"/>
+            android:text="@string/lesson20"/>-->
 
         <Button
             android:layout_width="match_parent"
@@ -117,6 +117,13 @@
             android:id="@+id/btnLesson41"
             android:layout_marginHorizontal="20dp"
             android:text="Урок 41 (JetPack Compose 2)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLesson42"
+            android:layout_marginHorizontal="20dp"
+            android:text="Урок 42 (RxJava)"/>
 
     </LinearLayout>
 
